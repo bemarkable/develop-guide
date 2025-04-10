@@ -48,6 +48,7 @@ src/
   --primary-color: #3366ff;
   --font-main: 'Noto Sans KR', sans-serif;
 }
+```
 
 ## 5. ⚛ React 컴포넌트 작성 규칙
 함수형 컴포넌트 사용
