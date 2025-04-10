@@ -51,58 +51,51 @@ src/
 ```
 ---
 ## 5. ⚛ React 컴포넌트 작성 규칙
-함수형 컴포넌트 사용
-
-필요한 경우에만 state 관리
-
-컴포넌트는 1가지 역할만 수행
-
-props는 명확하게 정의하고, 불필요한 전달 지양
-
-불변성 유지 (spread, map, filter 등 활용)
-
+- **함수형 컴포넌트 사용**
+- **필요한 경우에만 state 관리**
+- **컴포넌트는 1가지 역할만 수행**
+- **props는 명확하게 정의하고, 불필요한 전달 지양**
+- **불변성 유지 (spread, map, filter 등 활용)**
+```
 jsx
 function UserCard({ name }) {
   return <div className="user-card">{name}</div>;
 }
+```
+
 ---
 ## 6. ✅ 코드 컨벤션
-ESLint & Prettier 설정 제공 예정
-
-세미콜론 사용: 항상 사용
-
-인덴트: 2 spaces
-
-문자열: 작은따옴표 '' 사용
-
-주석: 꼭 필요한 경우만 작성하며, 명확하게 기술
+- **ESLint & Prettier 설정 제공 예정**
+- **세미콜론 사용: 항상 사용**
+- **인덴트: 2 spaces**
+- **문자열: 작은따옴표 '' 사용**
+- **주석: 꼭 필요한 경우만 작성하며, 명확하게 기술**
 ---
 ## 7. 🔁 Git 규칙
-브랜치 네이밍: feature/, fix/, hotfix/
-
-커밋 메시지 포맷:
-
-csharp
+- **브랜치 네이밍: feature/, fix/, hotfix/**
+- **커밋 메시지 포맷:**
+```
 [Feat] 유저 카드 컴포넌트 생성
 [Fix] 버튼 hover 이슈 수정
 [Refactor] 로직 정리
+```
 ---
 ## 8. 📤 PR 규칙
-PR은 단일 기능 단위로 작게
-리뷰어 지정 필수
-제목 & 설명은 명확하게 작성
-리뷰 후 merge는 팀장/담당자 확인 후 수행
+- **PR은 단일 기능 단위로 작게**
+- **리뷰어 지정 필수**
+- **제목 & 설명은 명확하게 작성**
+- **리뷰 후 merge는 팀장/담당자 확인 후 수행**
 ---
 ## 9. 📄 문서 & 자료 위치
-디자인 시안: [Figma 링크]
-API 명세: [Swagger / Notion 링크]
-컴포넌트 레퍼런스: [Storybook or 캡처 정리 URL]
-Notion 링크: [프로젝트 대시보드]
+- **디자인 시안**: [Figma 링크]
+- **API 명세**: [Swagger / Notion 링크]
+- **컴포넌트 레퍼런스**: [Storybook or 캡처 정리 URL]
+- **Notion 링크**: [프로젝트 대시보드]
 ---
 ## 10. 📞 커뮤니케이션
-Slack 채널: #project-frontend
-정기 회의: 매주 수요일 오후 3시 (Google Meet)
-이슈 공유 방법: Slack 또는 Notion에 티켓 작성
+- **Slack 채널**: #project-frontend
+- **정기 회의**: 매주 수요일 오후 3시 (Google Meet)
+- **이슈 공유 방법**: Slack 또는 Notion에 티켓 작성
 ---
 담당자:
 기술: 이름 (이메일)
