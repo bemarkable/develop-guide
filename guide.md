@@ -102,4 +102,4 @@ function UserCard({ name }) {
 담당자:
 기술: 이름 (이메일)
 PM: 이름 (이메일)
-
+---
