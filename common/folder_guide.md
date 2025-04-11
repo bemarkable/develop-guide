@@ -8,7 +8,15 @@ React 기반의 모던 프론트엔드 프로젝트는 **재사용성과 유지�
 ## 📌 최상위 구조
 
 ```
-src/ ├── assets/ ├── components/ ├── pages/ ├── styles/ ├── hooks/ ├── utils/ ├── contexts/ └── App.tsx
+src/ 
+├── assets/ 
+├── components/ 
+├── pages/ 
+├── styles/ 
+├── hooks/ 
+├── utils/ 
+├── contexts/ 
+└── App.tsx
 ```
 
 
@@ -23,7 +31,13 @@ src/ ├── assets/ ├── components/ ├── pages/ ├── styles/ 
 
 **예시**
 ```
-assets/ ├── images/ │ └── banner.png ├── icons/ │ └── close.svg └── fonts/ └── Pretendard.woff2
+assets/ 
+├── images/ 
+│ └── banner.png 
+├── icons/ 
+│ └── close.svg 
+├── fonts/ 
+│ └── Pretendard.woff2
 ```
 
 ---
@@ -38,7 +52,13 @@ assets/ ├── images/ │ └── banner.png ├── icons/ │ └─�
 
 **예시**
 ```
-components/ ├── atoms/ │ └── Button.tsx ├── molecules/ │ └── FormField.tsx └── organisms/ └── Header.tsx
+components/ 
+├── atoms/ 
+│ └── Button.tsx 
+├── molecules/ 
+│ └── FormField.tsx 
+└── organisms/ 
+└── Header.tsx
 ```
 
 ---
