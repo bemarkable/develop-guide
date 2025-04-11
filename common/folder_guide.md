@@ -76,11 +76,11 @@ pages/
 ├── Home/ 
 │ ├── index.tsx 
 │ └── __components/ 
-│ │ └── HomeBanner.tsx 
+│   └── HomeBanner.tsx 
 ├── Product/ 
 │ └── index.tsx 
-├── About/ 
-│ └── index.tsx
+└── About/ 
+  └── index.tsx
 ```
 
 
@@ -112,7 +112,10 @@ styles/
 
 **예시**
 ```
-hooks/ ├── useInput.ts ├── useModal.ts └── useDebounce.ts
+hooks/ 
+├── useInput.ts 
+├── useModal.ts 
+└── useDebounce.ts
 ```
 
 ---
