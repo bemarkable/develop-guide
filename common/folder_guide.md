@@ -36,8 +36,8 @@ assets/
 │ └── banner.png 
 ├── icons/ 
 │ └── close.svg 
-├── fonts/ 
-│ └── Pretendard.woff2
+└── fonts/ 
+  └── Pretendard.woff2
 ```
 
 ---
@@ -57,8 +57,8 @@ components/
 │ └── Button.tsx 
 ├── molecules/ 
 │ └── FormField.tsx 
-├── organisms/ 
-│ └── Header.tsx
+└── organisms/ 
+  └── Header.tsx
 ```
 
 ---
