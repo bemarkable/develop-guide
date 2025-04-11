@@ -57,8 +57,8 @@ components/
 │ └── Button.tsx 
 ├── molecules/ 
 │ └── FormField.tsx 
-└── organisms/ 
-└── Header.tsx
+├── organisms/ 
+│ └── Header.tsx
 ```
 
 ---
@@ -67,12 +67,20 @@ components/
 > 라우팅 경로별 페이지 컴포넌트 정의
 
 - 파일 기반 라우팅 구조 (`/home`, `/about`, `/product/:id` 등)
-- 각 폴더 내에 `index.tsx` 사용 권장
+- 각 폴더 내에 `index.tsx/index.jsx` 사용 권장
 - 페이지 내에서만 사용되는 로컬 컴포넌트는 `__components/`로 별도 관리
 
 **예시**
 ```
-pages/ ├── Home/ │ ├── index.tsx │ └── __components/ │ └── HomeBanner.tsx ├── Product/ │ └── index.tsx └── About/ └── index.tsx
+pages/ 
+├── Home/ 
+│ ├── index.tsx 
+│ └── __components/ 
+│ │ └── HomeBanner.tsx 
+├── Product/ 
+│ └── index.tsx 
+├── About/ 
+│ └── index.tsx
 ```
 
 
@@ -87,7 +95,10 @@ pages/ ├── Home/ │ ├── index.tsx │ └── __components/ │ �
 
 **예시**
 ```
-styles/ ├── global.css ├── reset.css └── theme.ts
+styles/ 
+├── global.css 
+├── reset.css 
+└── theme.ts
 ```
 
 ---
@@ -116,7 +127,10 @@ hooks/ ├── useInput.ts ├── useModal.ts └── useDebounce.ts
 **예시**
 
 ```
-utils/ ├── formatDate.ts ├── validate.ts └── constants.ts
+utils/ 
+├── formatDate.ts 
+├── validate.ts
+└── constants.ts
 ```
 
 ---
@@ -129,7 +143,9 @@ utils/ ├── formatDate.ts ├── validate.ts └── constants.ts
 
 **예시**
 ```
-contexts/ ├── AuthContext.tsx └── ThemeContext.tsx
+contexts/ 
+├── AuthContext.tsx
+└── ThemeContext.tsx
 ```
 
 ---
